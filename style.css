@@ -105,3 +105,95 @@ body{
     width: 300px;
     border-radius: 43%;
 }
+.details{
+    margin: auto;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 50px;
+    height: 200px;
+    width: 600px;
+    align-self: center;
+    padding: 30px;
+    
+    
+}
+.details div{
+    padding: 10px;
+    
+   
+}
+.cont{
+    font-size:35px;
+    color:black;
+    
+}
+.cont-d{
+    font-size: 20px;
+    color:red;
+   
+}
+.cont-d:hover{
+    transform: rotatex(0.002deg);
+}
+
+.socials{
+    margin: auto;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    height: 300px;
+    width: 600px;
+    align-self: center;
+    padding: 30px;
+    color:white;
+
+}
+.socials div a{
+    text-decoration: none;
+    color: hsl(238, 160%, 13%);
+}
+
+.socials div a:hover{
+    color: hsl(238, 160%, 50%);
+}
+
+/*the about.html file*/
+#capture-line{
+    display: flex;
+    border: 1px dotted;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    margin-top:170px;
+    margin-left: 100px;
+    width:60%;
+    font-size: 40px;
+    background-color: #AA60C8;
+    
+
+
+
+}
+.personal-info{
+    margin-left: 100px;
+    border: 1px dotted;
+    margin-top: 100px;
+    width: 900px;
+
+}
+.personal-info h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.job-description{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    border: 1px solid;
+}
+.job-description div{
+    border: 1px solid;
+    padding: 30px;
+    margin: 20px;
+}
+
