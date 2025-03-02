@@ -1,24 +1,24 @@
-const myname =document.getElementById("name")
+const myname = document.getElementById("name");
+const overlayDiv  = document.getElementById("overlay1");
 
-myname.addEventListener("mouseover", rotate => {
-    
-    event.target.style.backgroundcolor = "red";
-    
-})
-myname.addEventListener("mouseout", rotate => {
-    
+
+// Change text color on mouseover
+myname.addEventListener("mouseover", (event) => {
+    event.target.style.Color = "red"; 
+});
+
+// Change text color back on mouseout
+myname.addEventListener("mouseout", (event) => {
     event.target.style.color = "blue";
-    
-})
+});
 
-const navbar = document.getElementsByClassName("nav-bar");
+// Change background color on mouseover for overlay
+ overlayDiv.addEventListener("mouseover", (event) => {
+    event.target.style.backgroundColor = "#D69ADE"; 
+});
+overlayDiv.addEventListener("mouseout", (event) => {
+    event.target.style.backgroundColor = "black"; 
+});
 
-for (let i = 0; i < myNames.length; i++) {
-    myNames[i].addEventListener("mouseover", event => {
-        event.target.style.transform = "rotate(30deg)"; // Rotates 30 degrees
-    });
 
-    myNames[i].addEventListener("mouseout", event => {
-        event.target.style.transform = "rotate(0deg)"; // Reset rotation
-    });
-}
+
