@@ -162,7 +162,7 @@ body{
 /*the about.html file*/
 #capture-line{
     display: flex;
-    border: 1px dotted;
+   
     justify-content: center;
     align-content: center;
     padding: 30px;
@@ -178,7 +178,7 @@ body{
 }
 .personal-info{
     margin-left: 100px;
-    border: 1px dotted;
+   
     margin-top: 100px;
     width: 900px;
 
@@ -191,10 +191,10 @@ body{
     display: flex;
     justify-content: flex-end;
     margin-top: 50px;
-    border: 1px solid;
+   
 }
 .job-description div{
-    border: 1px solid;
+    
     padding: 30px;
     margin: 20px;
 }
